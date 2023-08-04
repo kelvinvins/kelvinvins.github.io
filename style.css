@@ -1,0 +1,33 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+.imagethumbs {
+  border: 4px solid #645c5c;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.nav-item::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #e8bfbf;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+}
+
+/* Projects */
+
+#projects {
+  background-color: #e2edff;
+}
